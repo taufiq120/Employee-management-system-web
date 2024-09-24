@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Average Salary</title>
+    <link rel="stylesheet" type="text/css" href="/css/astyles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Average Salary</h1>
+        <p th:text="'The average salary is: ' + ${averageSalary}"></p> 
+        <a href="/employees">Back to Employee List</a>
+    </div>
+</body>
+</html>
